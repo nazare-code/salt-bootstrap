@@ -17,3 +17,6 @@ master$ salt-key -a 'minion*'
 Test running minions
 
 master$ sudo salt '*' test.ping
+master$ sudo salt '*' pkg.install nginx
+
+master$ curl http://minion1
